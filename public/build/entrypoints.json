@@ -1,0 +1,46 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "http://localhost:8080/build/runtime.js",
+        "http://localhost:8080/build/vendors~admin~app~login~search.js",
+        "http://localhost:8080/build/vendors~admin~app~search.js",
+        "http://localhost:8080/build/vendors~app~search.js",
+        "http://localhost:8080/build/vendors~app.js",
+        "http://localhost:8080/build/app.js"
+      ],
+      "css": [
+        "http://localhost:8080/build/vendors~app.css",
+        "http://localhost:8080/build/app.css"
+      ]
+    },
+    "login": {
+      "js": [
+        "http://localhost:8080/build/runtime.js",
+        "http://localhost:8080/build/vendors~admin~app~login~search.js",
+        "http://localhost:8080/build/login.js"
+      ]
+    },
+    "admin": {
+      "js": [
+        "http://localhost:8080/build/runtime.js",
+        "http://localhost:8080/build/vendors~admin~app~login~search.js",
+        "http://localhost:8080/build/vendors~admin~app~search.js",
+        "http://localhost:8080/build/vendors~admin.js",
+        "http://localhost:8080/build/admin.js"
+      ],
+      "css": [
+        "http://localhost:8080/build/admin.css"
+      ]
+    },
+    "search": {
+      "js": [
+        "http://localhost:8080/build/runtime.js",
+        "http://localhost:8080/build/vendors~admin~app~login~search.js",
+        "http://localhost:8080/build/vendors~admin~app~search.js",
+        "http://localhost:8080/build/vendors~app~search.js",
+        "http://localhost:8080/build/search.js"
+      ]
+    }
+  }
+}
