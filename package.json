@@ -2,7 +2,7 @@
   "devDependencies": {
     "@babel/preset-react": "^7.9.4",
     "@fortawesome/fontawesome-free": "^5.8.1",
-    "@symfony/webpack-encore": "^0.28.0",
+    "@symfony/webpack-encore": "^4.1.2",
     "bloodhound-js": "^1.2.3",
     "bootstrap-sass": "^3.3.7",
     "bootstrap-tagsinput": "^0.7.1",
